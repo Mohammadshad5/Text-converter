@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="   https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+
+.box1 {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    height: 640px;
+    border-radius: 43px;
+    width: 80%;
+    background-color: #FFF4E6;
+
+    box-shadow: 1px 1px 20px #80808054
+}
+
+.box21 {
+    display: flex;
+    justify-content: center;
+}
+textarea.input1 {
+    padding-top: 16px;
+    padding-left: 25px;
+    /* display: flex; */
+    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 58px;
+    padding-bottom: 18%;
+    width: 89%;
+    border: none;
+    box-shadow: 1px 1px  6px lightseagreen;
+}
+
+.butoon {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+button.but1 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    padding-inline: 22px;
+    border: none;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    color: white;
+    background-color: #2364c2c9;
+}
+button.but11 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    padding-inline: 22px;
+    border: none;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    color: white;
+    background-color: #cf4a0ec7;
+}
+button.but111 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    padding-inline: 22px;
+    border: none;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+       color: black;
+    background-color: linear-gradient(135deg,#FF375F #C2185B);
+}
+
+button.but2 {
+     font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #8B5CF6;
+}
+button.but12 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #10B981;
+}
+button.but122 {
+    font-size: 14px;
+    width: 13%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #364742;
+}
+
+button.but3 {
+     font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    box-shadow: 1px 5px 15px gray;
+    font-weight: 600;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #F59E0B;
+}
+button.but13 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    box-shadow: 1px 5px 15px gray;
+    font-weight: 600;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #F97316;
+}
+button.but133 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    box-shadow: 1px 5px 15px gray;
+    font-weight: 600;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+     color: black;
+    background-color: linear-gradient(135deg,#FF375F #C2185B);
+}
+
+button.but4 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    color: white;
+    background-color: #38BDF8;
+}
+button.but14 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    color: white;
+    background-color: #E11D48;
+}
+button.but144 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    color: black;
+    background-color: linear-gradient(135deg,#FF375F #C2185B);
+}
+button.but5 {
+    font-size: 14px;
+    width: 15%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    box-shadow: 1px 5px 15px gray;
+    color: white;
+    background-color: #8B5CF6;
+    background-color: #F472B6;
+}
+button.but15 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    box-shadow: 1px 5px 15px gray;
+    color: white;
+    background-color: #0EA5E9;
+}
+button.but6 {
+     font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    box-shadow: 1px 5px 15px gray;
+    font-weight: 600;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    color: white;
+    background-color: #14B8A6;
+}
+button.but16 {
+    font-size: 14px;
+    width: 12%;
+    height: 40px;
+    padding-block: 10px;
+    box-shadow: 1px 5px 15px gray;
+    font-weight: 600;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    color: white;
+    background-color: #FACC15;
+}
+.butgroup2 {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.butgroup3 {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.boxshad {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    position: relative;
+    top: 65px;
+}
+.shad1 {
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #a4a7ff30;
+    height: 38px;
+    display: flex;
+    width: 10%;
+    font-weight: 900;
+    color: #1a1ab3;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.shad2 {
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #a4a7ff30;
+    height: 38px;
+    display: flex;
+    width: 10%;
+    font-weight: 900;
+    color: #1a1ab3;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.shad3 {
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #a4a7ff30;
+    height: 38px;
+    display: flex;
+    width: 10%;
+    font-weight: 900;
+    color: #1a1ab3;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.shad4 {
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #a4a7ff30;
+    height: 38px;
+    display: flex;
+    width: 10%;
+    font-weight: 900;
+    color: #1a1ab3;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.boxnew {
+    color: #5ab3ea;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+    .boxnew {
+    color: #5ab3ea;
+    text-align: center;
+    font-size: 14px;
+}
+    .box2 {
+    height: 640px;
+    border-radius: 43px;
+    width: 100%;
+    background-color: #FFF4E6;
+    box-shadow: 1px 1px 20px #80808054;
+}
+.butoon {
+    width: 100%;
+    margin-top: 38px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.butgroup2 {
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.butgroup3 {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.boxshad {
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+button.but1 {
+    left: 8px;
+    position: relative;
+    font-size: 11px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    padding-inline: 22px;
+    border: none;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    color: white;
+    background-color: #2364c2c9;
+}
+button.but2 {
+    font-size: 12px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #8B5CF6;
+}
+
+button.but4 {
+    font-size: 12px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    color: white;
+    background-color: #38BDF8;
+}
+button.but3 {
+    display: flex;
+    font-size: 12px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    box-shadow: 1px 5px 15px gray;
+    font-weight: 600;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #F59E0B;
+    align-items: center;
+    position: relative;
+    left: 8px;
+}
+button.but5 {
+    left: 8px;
+    position: relative;
+    display: flex;
+    font-size: 11px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    box-shadow: 1px 5px 15px gray;
+    color: white;
+    background-color: #8B5CF6;
+    background-color: #F472B6;
+    align-items: center;
+}
+textarea.input1 {
+    padding-top: 13px;
+    padding-left: 16px;
+    /* display: flex; */
+    font-size: 12px;
+    border-radius: 25px;
+    margin-top: 40px;
+    padding-bottom: 18%;
+    width: 89%;
+    border: none;
+    box-shadow: 1px 1px  6px lightseagreen;
+}
+button.but6 {
+    left: 8px;
+    display: flex;
+    font-size: 11px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    box-shadow: 1px 5px 15px gray;
+    font-weight: 600;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    color: white;
+    background-color: #14B8A6;
+    align-items: center;
+}
+
+button.but11 {
+    left: 8px;
+    position: relative;
+    font-size: 12px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    padding-inline: 22px;
+    border: none;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    color: white;
+    background-color: #cf4a0ec7;
+}
+button.but12 {
+    font-size: 12px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #10B981;
+}
+button.but13 {
+    left: 8px;
+    position: relative;
+    font-size: 12px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    box-shadow: 1px 5px 15px gray;
+    font-weight: 600;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #F97316;
+}
+button.but14 {
+    font-size: 12px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    color: white;
+    background-color: #E11D48;
+}
+button.but15 {
+    left: 8px;
+    position: relative;
+    display: flex;
+    font-size: 11px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    box-shadow: 1px 5px 15px gray;
+    color: white;
+    background-color: #0EA5E9;
+    align-items: center;
+}
+button.but16 {
+    display: flex;
+    font-size: 11px;
+    width: 38%;
+    height: 32px;
+    padding-block: 10px;
+    box-shadow: 1px 5px 15px gray;
+    font-weight: 600;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    color: white;
+    background-color: #FACC15;
+    align-items: center;
+}
+button.but111 {
+    display: flex;
+    font-size: 12px;
+    width: 42%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    padding-inline: 22px;
+    border: none;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    color: black;
+    background-color: linear-gradient(135deg,#FF375F #C2185B);
+}
+button.but122 {
+    display: flex;
+    font-size: 11px;
+    width: 42%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #364742;
+    align-items: center;
+}
+button.but133 {
+    font-size: 12px;
+    width: 42%;
+    height: 32px;
+    padding-block: 10px;
+    box-shadow: 1px 5px 15px gray;
+    font-weight: 600;
+    padding-inline: 22px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: linear-gradient(135deg,#FF375F #C2185B);
+}
+button.but144 {
+    font-size: 12px;
+    width: 42%;
+    height: 32px;
+    padding-block: 10px;
+    font-weight: 600;
+    box-shadow: 1px 5px 15px gray;
+    border-radius: 20px;
+    padding-inline: 22px;
+    border: none;
+    color: black;
+    background-color: linear-gradient(135deg,#FF375F #C2185B);
+}
+.shad1 {
+    font-size: 12px;
+    margin-top: 30px;
+    background-color: #a4a7ff30;
+    height: 32px;
+    display: flex;
+    width: 38%;
+    font-weight: 900;
+    color: #1a1ab3;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.shad2 {
+    font-size: 12px;
+    margin-top: 30px;
+    background-color: #a4a7ff30;
+    height: 34px;
+    display: flex;
+    width: 38%;
+    font-weight: 900;
+    color: #1a1ab3;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.shad3 {
+    font-size: 12px;
+    margin-top: 0px;
+    background-color: #a4a7ff30;
+    height: 34px;
+    display: flex;
+    width: 38%;
+    font-weight: 900;
+    color: #1a1ab3;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.shad4 {
+    font-size: 12px;
+    margin-top: 0px;
+    background-color: #a4a7ff30;
+    height: 34px;
+    display: flex;
+    width: 38%;
+    font-weight: 900;
+    color: #1a1ab3;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+</style>
+<div class="boxnew">
+    <h1>Text Converter</h1>
+</div>
+
+
+    <div class="box1">
+        <div class="box2">
+        
+            <div class="box21">
+                <textarea class="input1" id="convertor" placeholder="Type and paste and content here"></textarea>
+
+            </div>
+            <div class="butoon">
+               <button class="but1" type="submit" onclick="call1()">UPPER CASE</button>
+                 <button class="but2" type="submit" onclick="call2()">lower case</button>
+                   <button class="but3" type="submit" onclick="call3()">Sentence case</button>
+                     <button class="but4" type="submit" onclick="call4()">Title Case</button>
+                       <button class="but5" type="submit" onclick="call5()">aLtErNaTing cAsE</button>
+                         <button class="but6" type="submit" onclick="call6()">InVeRsE CaSe</button>
+
+            </div>
+        <div class="butgroup2">
+             <button class="but11" type="submit" onclick="call7()">camelcase</button>
+                 <button class="but12" type="submit" onclick="call8()">PascalCase</button>
+                   <button class="but13" type="submit" onclick="call9()">Snake_Case</button>
+                     <button class="but14" type="submit" onclick="call10()">Kebab-Case</button>
+                       <button class="but15" type="submit" onclick="call11()">Reverse Text</button>
+                         <button class="but16" type="submit" onclick="call12()">InVeRsE CaSe</button>
+
+
+        </div>
+          <div class="butgroup3">
+             <button class="but111" type="submit" onclick="call13()">
+                <i class="fa-solid fa-download"></i>
+                Download
+             </button>
+                 <button class="but122" type="submit" onclick="call14()">Remove Space</button>
+                   <button class="but133" type="submit" onclick="call15()">
+                    <i class="fa-regular fa-copy"></i>
+                    Copy
+                   </button>
+                     <button class="but144" type="submit" onclick="call16()">
+        <i class="fa-solid fa-rotate"></i>
+        Clear
+
+                     </button>
+              
+                      
+
+
+        </div>
+        <div class="boxshad">
+            <div class="shad1">0 Characters</div>
+                 <div class="shad2">0 Word</div>
+                      <div class="shad3">0 Sentences</div>
+                           <div class="shad4">1 Lines</div>
+        </div>
+
+        </div>
+       
+
+    </div>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const textarea = document.getElementById("convertor");
+const charCount = document.querySelector(".shad1");
+const wordCount = document.querySelector(".shad2");
+const sentenceCount = document.querySelector(".shad3");
+const lineCount = document.querySelector(".shad4");
+
+// Utility: Update counts
+function updateCounts() {
+    const text = textarea.value;
+
+    charCount.textContent = `${text.length} Characters`;
+
+    const words = text.trim().split(/\s+/).filter(Boolean);
+    wordCount.textContent = `${words.length} Word`;
+
+    const sentences = text.split(/[.!?]+/).filter(s => s.trim().length > 0);
+    sentenceCount.textContent = `${sentences.length} Sentences`;
+
+    const lines = text.split(/\n/).length;
+    lineCount.textContent = `${lines} Lines`;
+}
+
+// UPPER CASE
+function call1() {
+    textarea.value = textarea.value.toUpperCase();
+    updateCounts();
+}
+
+// lower case
+function call2() {
+    textarea.value = textarea.value.toLowerCase();
+    updateCounts();
+}
+
+// Sentence case
+function call3() {
+    const text = textarea.value.toLowerCase().replace(/(^\s*\w|[\.\!\?]\s*\w)/g, c => c.toUpperCase());
+    textarea.value = text;
+    updateCounts();
+}
+
+// Title Case
+function call4() {
+    const text = textarea.value.toLowerCase().replace(/\b\w/g, l => l.toUpperCase());
+    textarea.value = text;
+    updateCounts();
+}
+
+// aLtErNaTiNg CaSe
+function call5() {
+    let result = "";
+    const text = textarea.value;
+    for (let i = 0; i < text.length; i++) {
+        result += i % 2 === 0 ? text[i].toLowerCase() : text[i].toUpperCase();
+    }
+    textarea.value = result;
+    updateCounts();
+}
+
+// InVeRsE CaSe
+function call6() {
+    const text = textarea.value;
+    let result = "";
+    for (let i = 0; i < text.length; i++) {
+        let ch = text[i];
+        result += ch === ch.toUpperCase() ? ch.toLowerCase() : ch.toUpperCase();
+    }
+    textarea.value = result;
+    updateCounts();
+}
+
+// camelCase
+function call7() {
+    let text = textarea.value.toLowerCase().replace(/[^a-zA-Z0-9 ]/g, '');
+    text = text.split(' ').map((word, index) =>
+        index === 0 ? word : word.charAt(0).toUpperCase() + word.slice(1)
+    ).join('');
+    textarea.value = text;
+    updateCounts();
+}
+
+// PascalCase
+function call8() {
+    let text = textarea.value.toLowerCase().replace(/[^a-zA-Z0-9 ]/g, '');
+    text = text.split(' ').map(word =>
+        word.charAt(0).toUpperCase() + word.slice(1)
+    ).join('');
+    textarea.value = text;
+    updateCounts();
+}
+
+// snake_case
+function call9() {
+    let text = textarea.value.toLowerCase().trim().replace(/\s+/g, '_');
+    textarea.value = text;
+    updateCounts();
+}
+
+// kebab-case
+function call10() {
+    let text = textarea.value.toLowerCase().trim().replace(/\s+/g, '-');
+    textarea.value = text;
+    updateCounts();
+}
+
+// Reverse text
+function call11() {
+    let text = textarea.value;
+    textarea.value = text.split('').reverse().join('');
+    updateCounts();
+}
+
+// InVeRsE CaSe again
+function call12() {
+    call6();
+}
+
+// Download text
+function call13() {
+    const blob = new Blob([textarea.value], { type: "text/plain;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "converted-text.txt";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+// Remove extra spaces
+function call14() {
+    textarea.value = textarea.value.replace(/\s+/g, ' ').trim();
+    updateCounts();
+}
+
+// Copy text
+function call15() {
+    textarea.select();
+    document.execCommand("copy");
+    alert("Text copied to clipboard!");
+}
+
+// Clear text
+function call16() {
+    textarea.value = '';
+    updateCounts();
+}
+
+// Update counts live
+textarea.addEventListener("input", updateCounts);
+
+// Initialize on load
+updateCounts();
+
+
+
+
+    </script>
+</body>
+</html>
